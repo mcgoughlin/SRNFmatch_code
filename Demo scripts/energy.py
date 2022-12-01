@@ -1,6 +1,5 @@
 import torch
-from pykeops.torch import Kernel, kernel_product, Genred
-from pykeops.torch.kernel_product.formula import *
+from pykeops.torch import Genred
 
 
 def Comp_normal(F, V):
